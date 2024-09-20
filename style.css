@@ -26,7 +26,7 @@ body {
 }
 
 table {
-    padding: 100px;
+    padding: 50px;
 }
 
 /* html {
@@ -43,6 +43,7 @@ img {
 li {
     background: rgba(29, 25, 25, 0.5);
     color: #fff;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     font-size: 20px;
+    list-style-type: decimal;
 }
