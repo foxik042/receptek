@@ -18,3 +18,19 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+table {
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+html {
+    width: 500px;
+    text-align: center;
+}
