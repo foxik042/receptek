@@ -3,7 +3,7 @@
 body {
 	background: linear-gradient(-45deg, #1282A2, #034078, #001F54, #0A1128);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+	/* animation: gradient 20s ease infinite; */
 	height: 97vh;
 }
 
@@ -26,11 +26,12 @@ body {
 }
 
 table {
-    margin-left: 100px;
-    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 650px;
 }
 
 html {
     width: 500px;
+    height: 99vh;
     text-align: center;
 }
