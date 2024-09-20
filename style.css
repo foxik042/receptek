@@ -39,3 +39,10 @@ img {
     padding-top: 300px;
     width: 400px;
 }
+
+li {
+    background: rgba(29, 25, 25, 0.5);
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+}
