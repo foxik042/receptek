@@ -117,3 +117,14 @@ img#home{
     width: 30%;
     height: 30%;
 }
+
+img{
+    transition: 1s ease;
+    }
+    
+    img:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: 1s ease;
+    }
