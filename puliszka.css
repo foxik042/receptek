@@ -24,16 +24,24 @@ img#home{
 
 
 img#palcs{
-    width: 400px;
+    width: 23%;
     height: 600px;
     margin-top: 10%;
+    border: 1px solid black;
 }
 
 
 img#pecs{
-    width: 400px;
+    width: 23%;
     height: 600px;
     margin-top: 10%;
+    border: 1px solid black;
+}
+
+img#pulsz{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 h1{
@@ -55,4 +63,48 @@ div.szoveg{
 
 div.lorem{
     font-size: 30px;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+table {
+    padding: 50px;
+}
+
+/* html {
+    width: 500px;
+    height: 99vh;
+    text-align: center;
+} */
+
+.szoveg {
+    color: #fff;
+    /* padding: 0 20px; */
+    font-size: 20px;
+    list-style-type: decimal;
+}
+.szoveg2 {
+    color: #fff;
+    /* padding: 0 20px; */
+    font-size: 20px;
+    list-style-type: decimal;
+    margin-bottom: 3%;
+}
+.szoveg3 {
+    color: #fff;
+    /* padding: 0 20px; */
+    font-size: 20px;
+    list-style-type: decimal;
+}
+
+img#pecs:hover {
+    transform: scale(1.04); 
+}
+
+
+img#palcs:hover {
+    transform: scale(1.04); 
 }
