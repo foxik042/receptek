@@ -4,7 +4,7 @@ body {
 	background: linear-gradient(-45deg, #1282A2, #034078, #001F54, #0A1128);
 	background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
-	height: 97vh;
+	height: 111vh;
 }
 
 @keyframes gradient {
@@ -46,4 +46,69 @@ li {
     /* padding: 0 20px; */
     font-size: 20px;
     list-style-type: decimal;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 400px;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+.tables {
+    flex: 3;
+}
+.image {
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 400px;
+    height: auto;
+}
+.elkeszites {
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: -300px;
+}
+
+h2 {
+    color: white;
+}
+
+#pulsz {
+    margin-left: 50px;
+    width: 400px;
+}
+
+#palcs {
+    width: 400px;
+}
+
+#fejlec {
+    background: linear-gradient(270deg, #8B4513 , #D2691E , #FFD700, #B22222 );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

@@ -7,35 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Receptek</title>
-    <style>
-        .container {
-            display: flex;
-        }
-        .tables {
-            flex: 3;
-        }
-        .image {
-            flex: 1;
-            padding-left: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        img {
-            width: 400px;
-            height: auto;
-        }
-        .elkeszites {
-            margin-top: 20px;
-        }
-    </style>
+    <title>Cigánypecsenye</title>
 </head>
 <body>
     <div class="container">
         <div class="tables">
-            <h1>Cigánypecsenye</h1>
-            <h1>Recept</h1>
+            <h1 id="fejlec">Cigánypecsenye</h1>
+            <h1 id="fejlec">Recept</h1>
             <!-- A páchoz táblázat -->
             <table class="table table-dark">
                 <thead>
@@ -137,25 +115,45 @@
                 </tr>
                 </tbody>
             </table>
+            <table class="table table-dark">
+                <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Egyéb információk:</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>Elkészítés ideje</td>
+                    <td>70 perc</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>Sütés ideje</td>
+                    <td>40-45 perc</td>
+                </tr>
+                </tbody>
+            </table>
+            <h2>fedezze fel további receptjeinet:</h2>
+                <a href="palacsinta.html"><img src="palcs.jpg" id="palcs"></a>
+                <a href="puliszka.html"><img src="pulsz.jpeg" id="pulsz"></a>
         </div>
         <div class="image">
             <img src="https://img-global.cpcdn.com/recipes/d173e2ea09c84757/680x482cq70/ciganypecsenye-recept-foto.jpg" alt="Cigánypecsenye kép">
             <div class="elkeszites">
-                <ul>
+                <ol>
                     <li>A cigánypecsenye elkészítéséhez először kikeverjük a pácot: egy tálba öntjük az olajat, beletesszük az áttört fokhagyma felét, hozzáadjuk a fűszerpaprika felét, majd megsózzuk, megborsozzuk és alaposan elkeverjük. Ezután belehelyezzük a klopfolatlan sertéstarja-szeleteket.</li>
-                </ul>
-                <ul>
+                    <br>
                     <li>A krumplit meghámozzuk, hosszában négyfelé vágjuk, majd megszórjuk sóval, borssal, majoránnával, oregánóval, a fűszerpaprika másik felével, majd meglocsoljuk egy kevés olajjal, és összekeverjük az egészet. 200 fokra előmelegített sütőbe tesszük kb. 40-45 percre a középső rácsra. 15 percenként átkeverjük. Ha már puha, akkor 220 fokra kapcsoljuk a sütőt, hadd piruljon a köret.</li>
-                </ul>
-                <ul>
+                    <br>
                     <li>A szalonnát félujjnyi vastagra vágjuk, majd bemetéljük a háromnegyed részükig, és egy serpenyőben piros-ropogósra sütjük, majd kivesszük.</li>
-                </ul>
-                <ul>
+                    <br>
                     <li>A szalonnazsírba beletesszük a hússzeleteket, és mindkét oldalukat 4-5 percig sütjük, majd kivesszük a serpenyőből. Ekkor nagyon finom, szaftos, omlós húst fogunk kapni.</li>
-                </ul>
-                <ul>
+                    <br>
                     <li>A kisült, ropogós fűszeres krumplikat egy szép nagy tálra helyezzük, ráhelyezzük a húsokat, megkenjük őket a maradék zúzott fokhagymával, a tetejére rakjuk az időközben fűszerpaprikába mártott füstölt szalonnát, majd mellé halmozzuk a házi csalamádét.</li>
-                </ul>
+                </ol>
             </div>
         </div>
     </div>
