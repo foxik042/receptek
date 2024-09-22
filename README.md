@@ -23,3 +23,8 @@
 
 8. **Tesztelés**
    - Nyisd meg az index.html fájlt a böngésződben, és ellenőrizd, hogy minden megfelelően működik-e.
+
+
+Készítők: -Hajdú Kristóf -pecsenye.html és style.css elkészítője és stílusadója az oldalnak 
+          -Kungl Richárd -palacsinta.html, palacsinta.css és README.md elkészítője
+          -Lukács István -puliszka.html, home.html és stilus.css és a képek megszerzője
