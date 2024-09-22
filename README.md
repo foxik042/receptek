@@ -1,6 +1,6 @@
 # receptek
 
-**Projekt létrehozása**
+1. **Projekt létrehozása**
    - Hozz létre egy új mappát a palacsinta recept projekted számára.
 
 2. **HTML struktúra elkészítése**
