@@ -1,28 +1,24 @@
 body {
-    color: lightblue;
+    color: #333;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-.scroll-box {
-    width: 300px; /* Az elem szélessége */
-    height: 200px; /* Az elem magassága */
-    padding: 10px;
-    border: 1px solid #ccc;
-    overflow: auto; /* Görgetősáv megjelenítése szükség esetén */
-    background-color: #f9f9f9;
+h1, h2 {
+    color: #2c3e50;
 }
 
-.fixed-text {
-    color: black;
-    position: fixed;
-    top: 20px; /* Távolság a tetejétől */
-    left: 300px; /* Távolság a bal oldaltól */
-    right: 20px;
-    background-color: lightyellow;
-    padding: 10px;
-    border: 1px solid #000;
+p, li {
+    line-height: 1.6;
 }
 
-.valami {
-    background-color: #f0f0f0;
-    padding: 15px;
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
