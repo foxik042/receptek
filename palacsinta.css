@@ -1,0 +1,28 @@
+body {
+    color: lightblue;
+}
+
+.scroll-box {
+    width: 300px; /* Az elem szélessége */
+    height: 200px; /* Az elem magassága */
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: auto; /* Görgetősáv megjelenítése szükség esetén */
+    background-color: #f9f9f9;
+}
+
+.fixed-text {
+    color: black;
+    position: fixed;
+    top: 20px; /* Távolság a tetejétől */
+    left: 300px; /* Távolság a bal oldaltól */
+    right: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.valami {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
